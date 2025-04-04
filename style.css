@@ -97,6 +97,15 @@ header nav ul li a {
   justify-content: center;
   gap: 10px;
 }
+.search-type {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.search-type label {
+  margin-right: 20px;
+  font-size: 16px;
+}
 #search form input,
 #search form select {
   padding: 10px;
