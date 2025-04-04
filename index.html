@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coworker Emlak Ofisi - Tek Tema</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header ve Navigasyon -->
+  <header>
+    <div class="container">
+      <h1><a href="#home">Coworker Emlak</a></h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Ana Sayfa</a></li>
+          <li><a href="#slider">Slider</a></li>
+          <li><a href="#ilanlar">İlanlar</a></li>
+          <li><a href="#hakkimizda">Hakkımızda</a></li>
+          <li><a href="#iletisim">İletişim</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Ana Sayfa Bölümü -->
+  <section id="home">
+    <div class="container">
+      <h2>Hoş Geldiniz</h2>
+      <p>Coworker Emlak Ofisi olarak, müşterilerimize modern ve güvenilir hizmetler sunuyoruz.</p>
+      <a class="btn" href="#ilanlar">İlanları İncele</a>
+    </div>
+  </section>
+
+  <!-- Slider Bölümü -->
+  <section id="slider">
+    <div class="slide active">
+      <img src="images/slider1.jpg" alt="Slider 1">
+      <div class="slide-text">
+        <h2>Modern Emlak Hizmetleri</h2>
+        <p>Güvenilir ve yenilikçi çözümler</p>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="images/slider2.jpg" alt="Slider 2">
+      <div class="slide-text">
+        <h2>Kaliteli İlanlar</h2>
+        <p>Öne çıkan emlak ilanlarımızı inceleyin</p>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="images/slider3.jpg" alt="Slider 3">
+      <div class="slide-text">
+        <h2>Profesyonel Danışmanlık</h2>
+        <p>Uzman ekibimiz yanınızda</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- İlanlar Bölümü -->
+  <section id="ilanlar">
+    <div class="container">
+      <h2>Öne Çıkan İlanlar</h2>
+      <div class="filter">
+        <input type="text" id="searchInput" placeholder="İlanlarda ara...">
+      </div>
+      <div class="ilan-listesi" id="ilanListesi">
+        <!-- Örnek İlan 1 -->
+        <article class="ilan" data-title="Apartman Dairesi">
+          <img src="images/ilan1.jpg" alt="İlan 1">
+          <h3>Apartman Dairesi</h3>
+          <p>İstanbul - 3+1, deniz manzaralı</p>
+          <a href="#">Detaylar</a>
+        </article>
+        <!-- Örnek İlan 2 -->
+        <article class="ilan" data-title="Villa">
+          <img src="images/ilan2.jpg" alt="İlan 2">
+          <h3>Lüks Villa</h3>
+          <p>Ankara - 5+1, geniş bahçeli</p>
+          <a href="#">Detaylar</a>
+        </article>
+        <!-- Örnek İlan 3 -->
+        <article class="ilan" data-title="Ofis">
+          <img src="images/ilan3.jpg" alt="İlan 3">
+          <h3>Ofis Alanı</h3>
+          <p>İzmir - Merkezi konum</p>
+          <a href="#">Detaylar</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hakkımızda Bölümü -->
+  <section id="hakkimizda">
+    <div class="container">
+      <h2>Hakkımızda</h2>
+      <p>Coworker Emlak Ofisi olarak sektörde yılların deneyimine sahibiz. Müşterilerimizin beklentilerini karşılamak ve onların hayalindeki mülkü bulmalarına yardımcı olmak için çalışıyoruz.</p>
+      <p>Ekibimiz, alanında uzman ve müşteri odaklı profesyonellerden oluşmaktadır.</p>
+    </div>
+  </section>
+
+  <!-- İletişim Bölümü -->
+  <section id="iletisim">
+    <div class="container">
+      <h2>İletişime Geçin</h2>
+      <form id="contactForm" action="#" method="POST">
+        <label for="name">Ad Soyad:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Mesaj:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Gönder</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Coworker Emlak Ofisi. Tüm hakları saklıdır.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
