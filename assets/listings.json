@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1220006780,
+    "title": "Kuzeyşehir Projesi'nin En Özel Dairesi Satışta",
+    "location": "Başakşehir, İstanbul",
+    "price": "8.250.000 TL",
+    "imageUrl": "https://placehold.co/400x220/0d6efd/ffffff?text=Kuzeyşehir+Daire",
+    "details": {
+      "oda": "3+1",
+      "banyo": 2,
+      "m2": 160,
+      "kat": "Bahçe Katı"
+    },
+    "description": "Startkey Macro güvencesiyle, projenin en özel bahçe katı dairesi. Geniş kullanım alanı ve modern tasarım.",
+    "detailUrl": "#"
+  },
+  {
+    "id": 2,
+    "title": "Denize Sıfır Kiralık Yazlık Villa",
+    "location": "Çeşme, İzmir",
+    "price": "75.000 TL / Ay",
+    "imageUrl": "https://placehold.co/400x220/198754/ffffff?text=Kiralık+Yazlık+Villa",
+    "details": {
+      "oda": "4+1",
+      "banyo": 3,
+      "m2": 250,
+      "ozellik": "Özel Havuzlu"
+    },
+    "description": "Eşsiz deniz manzarası, özel havuzu ve geniş bahçesiyle unutulmaz bir tatil için ideal.",
+    "detailUrl": "#"
+  },
+  {
+    "id": 3,
+    "title": "Merkezi Konumda Yatırımlık Dükkan",
+    "location": "Kadıköy, İstanbul",
+    "price": "12.000.000 TL",
+    "imageUrl": "https://placehold.co/400x220/ffc107/333333?text=Satılık+Dükkan",
+    "details": {
+      "m2": 80,
+      "cephe": "Cadde Üzeri",
+      "durum": "Kiracılı",
+      "ozellik": "Yüksek Tabela Değeri"
+    },
+    "description": "İşlek cadde üzerinde, hazır kiracılı, yüksek kazanç potansiyeline sahip dükkan.",
+    "detailUrl": "#"
+  }
+]
