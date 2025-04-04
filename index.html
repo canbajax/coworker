@@ -3,116 +3,108 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coworker Emlak Ofisi - Tek Tema</title>
+  <title>Aler - Coworker Emlak</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Header ve Navigasyon -->
+  <!-- Header -->
   <header>
     <div class="container">
-      <h1><a href="#home">Coworker Emlak</a></h1>
+      <div class="logo">
+        <h1>Coworker Emlak</h1>
+      </div>
       <nav>
         <ul>
-          <li><a href="#home">Ana Sayfa</a></li>
-          <li><a href="#slider">Slider</a></li>
-          <li><a href="#ilanlar">İlanlar</a></li>
-          <li><a href="#hakkimizda">Hakkımızda</a></li>
-          <li><a href="#iletisim">İletişim</a></li>
+          <li><a href="#hero">Ana Sayfa</a></li>
+          <li><a href="#search">İlan Ara</a></li>
+          <li><a href="#properties">İlanlar</a></li>
+          <li><a href="#about">Hakkımızda</a></li>
+          <li><a href="#contact">İletişim</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <!-- Ana Sayfa Bölümü -->
-  <section id="home">
+  <!-- Hero Slider Section -->
+  <section id="hero">
+    <div class="slider">
+      <div class="slide active">
+        <img src="images/hero.jpg" alt="Hero Image">
+        <div class="slide-caption">
+          <h2>Modern Emlak Hizmetleri</h2>
+          <p>Güvenilir ve kaliteli çözümler</p>
+        </div>
+      </div>
+      <!-- İsterseniz ek slide'lar ekleyebilirsiniz -->
+    </div>
+  </section>
+
+  <!-- Search Section -->
+  <section id="search">
     <div class="container">
-      <h2>Hoş Geldiniz</h2>
-      <p>Coworker Emlak Ofisi olarak, müşterilerimize modern ve güvenilir hizmetler sunuyoruz.</p>
-      <a class="btn" href="#ilanlar">İlanları İncele</a>
+      <h2>İlan Ara</h2>
+      <form id="searchForm">
+        <input type="text" name="city" placeholder="Şehir">
+        <select name="type">
+          <option value="">Emlak Türü</option>
+          <option value="daire">Daire</option>
+          <option value="villa">Villa</option>
+          <option value="ofis">Ofis</option>
+        </select>
+        <input type="number" name="minPrice" placeholder="Min Fiyat">
+        <input type="number" name="maxPrice" placeholder="Max Fiyat">
+        <button type="submit">Ara</button>
+      </form>
     </div>
   </section>
 
-  <!-- Slider Bölümü -->
-  <section id="slider">
-    <div class="slide active">
-      <img src="images/slider1.jpg" alt="Slider 1">
-      <div class="slide-text">
-        <h2>Modern Emlak Hizmetleri</h2>
-        <p>Güvenilir ve yenilikçi çözümler</p>
-      </div>
-    </div>
-    <div class="slide">
-      <img src="images/slider2.jpg" alt="Slider 2">
-      <div class="slide-text">
-        <h2>Kaliteli İlanlar</h2>
-        <p>Öne çıkan emlak ilanlarımızı inceleyin</p>
-      </div>
-    </div>
-    <div class="slide">
-      <img src="images/slider3.jpg" alt="Slider 3">
-      <div class="slide-text">
-        <h2>Profesyonel Danışmanlık</h2>
-        <p>Uzman ekibimiz yanınızda</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- İlanlar Bölümü -->
-  <section id="ilanlar">
+  <!-- Properties Listing Section -->
+  <section id="properties">
     <div class="container">
       <h2>Öne Çıkan İlanlar</h2>
-      <div class="filter">
-        <input type="text" id="searchInput" placeholder="İlanlarda ara...">
-      </div>
-      <div class="ilan-listesi" id="ilanListesi">
-        <!-- Örnek İlan 1 -->
-        <article class="ilan" data-title="Apartman Dairesi">
+      <div class="property-list">
+        <!-- Property Card 1 -->
+        <div class="property-card">
           <img src="images/ilan1.jpg" alt="İlan 1">
-          <h3>Apartman Dairesi</h3>
-          <p>İstanbul - 3+1, deniz manzaralı</p>
-          <a href="#">Detaylar</a>
-        </article>
-        <!-- Örnek İlan 2 -->
-        <article class="ilan" data-title="Villa">
+          <div class="property-info">
+            <h3>Apartman Dairesi</h3>
+            <p>İstanbul, 3+1, 500,000 TL</p>
+            <a href="#" class="btn">Detaylar</a>
+          </div>
+        </div>
+        <!-- Property Card 2 -->
+        <div class="property-card">
           <img src="images/ilan2.jpg" alt="İlan 2">
-          <h3>Lüks Villa</h3>
-          <p>Ankara - 5+1, geniş bahçeli</p>
-          <a href="#">Detaylar</a>
-        </article>
-        <!-- Örnek İlan 3 -->
-        <article class="ilan" data-title="Ofis">
-          <img src="images/ilan3.jpg" alt="İlan 3">
-          <h3>Ofis Alanı</h3>
-          <p>İzmir - Merkezi konum</p>
-          <a href="#">Detaylar</a>
-        </article>
+          <div class="property-info">
+            <h3>Lüks Villa</h3>
+            <p>Ankara, 5+1, 1,200,000 TL</p>
+            <a href="#" class="btn">Detaylar</a>
+          </div>
+        </div>
+        <!-- İsterseniz daha fazla ilan ekleyin -->
       </div>
     </div>
   </section>
 
-  <!-- Hakkımızda Bölümü -->
-  <section id="hakkimizda">
+  <!-- About Section -->
+  <section id="about">
     <div class="container">
       <h2>Hakkımızda</h2>
-      <p>Coworker Emlak Ofisi olarak sektörde yılların deneyimine sahibiz. Müşterilerimizin beklentilerini karşılamak ve onların hayalindeki mülkü bulmalarına yardımcı olmak için çalışıyoruz.</p>
-      <p>Ekibimiz, alanında uzman ve müşteri odaklı profesyonellerden oluşmaktadır.</p>
+      <p>
+        Coworker Emlak, müşterilerine kaliteli ve güvenilir hizmet sunan, deneyimli bir emlak ofisidir. 
+        Müşteri memnuniyeti önceliğimizdir ve modern yaklaşımlarımızla her zaman yanınızdayız.
+      </p>
     </div>
   </section>
 
-  <!-- İletişim Bölümü -->
-  <section id="iletisim">
+  <!-- Contact Section -->
+  <section id="contact">
     <div class="container">
-      <h2>İletişime Geçin</h2>
-      <form id="contactForm" action="#" method="POST">
-        <label for="name">Ad Soyad:</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="message">Mesaj:</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
-
+      <h2>İletişim</h2>
+      <form id="contactForm">
+        <input type="text" name="name" placeholder="Adınız Soyadınız" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" placeholder="Mesajınız" required></textarea>
         <button type="submit">Gönder</button>
       </form>
     </div>
@@ -121,7 +113,7 @@
   <!-- Footer -->
   <footer>
     <div class="container">
-      <p>&copy; 2025 Coworker Emlak Ofisi. Tüm hakları saklıdır.</p>
+      <p>&copy; 2025 Coworker Emlak. Tüm hakları saklıdır.</p>
     </div>
   </footer>
 
