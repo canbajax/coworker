@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aler - Coworker Emlak</title>
+  <title> Co Worker </title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,7 +11,7 @@
   <header>
     <div class="container">
       <div class="logo">
-        <h1>Coworker Emlak</h1>
+        <h1>Co Worker</h1>
       </div>
       <nav>
         <ul>
@@ -35,7 +35,7 @@
           <p>Güvenilir ve kaliteli çözümler</p>
         </div>
       </div>
-      <!-- İsterseniz ek slide'lar ekleyebilirsiniz -->
+      <!-- Ek slide eklemek isterseniz buraya yeni <div class="slide"> ekleyin -->
     </div>
   </section>
 
@@ -44,6 +44,17 @@
     <div class="container">
       <h2>İlan Ara</h2>
       <form id="searchForm">
+        <!-- Satılık/Kiralık seçenekleri için radio butonları -->
+        <div class="search-type">
+          <label>
+            <input type="radio" name="transaction" value="satilik" checked>
+            Satılık
+          </label>
+          <label>
+            <input type="radio" name="transaction" value="kiralik">
+            Kiralık
+          </label>
+        </div>
         <input type="text" name="city" placeholder="Şehir">
         <select name="type">
           <option value="">Emlak Türü</option>
@@ -81,7 +92,7 @@
             <a href="#" class="btn">Detaylar</a>
           </div>
         </div>
-        <!-- İsterseniz daha fazla ilan ekleyin -->
+        <!-- Ek ilanlar ekleyebilirsiniz -->
       </div>
     </div>
   </section>
@@ -91,7 +102,7 @@
     <div class="container">
       <h2>Hakkımızda</h2>
       <p>
-        Coworker Emlak, müşterilerine kaliteli ve güvenilir hizmet sunan, deneyimli bir emlak ofisidir. 
+        Co Worker, müşterilerine kaliteli ve güvenilir hizmet sunan, deneyimli bir emlak ofisidir. 
         Müşteri memnuniyeti önceliğimizdir ve modern yaklaşımlarımızla her zaman yanınızdayız.
       </p>
     </div>
@@ -113,7 +124,7 @@
   <!-- Footer -->
   <footer>
     <div class="container">
-      <p>&copy; 2025 Coworker Emlak. Tüm hakları saklıdır.</p>
+      <p>&copy; 2025 Co Worker. Tüm hakları saklıdır.</p>
     </div>
   </footer>
 
