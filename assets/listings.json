@@ -1,18 +1,18 @@
 [
   {
-    "id": 1220006780,
-    "title": "Kuzeyşehir Projesi'nin En Özel Dairesi Satışta",
-    "location": "Başakşehir, İstanbul",
-    "price": "8.250.000 TL",
-    "imageUrl": "https://placehold.co/400x220/0d6efd/ffffff?text=Kuzeyşehir+Daire",
-    "details": {
+    "id": 1220006780, // Linkteki ilan ID'si
+    "title": "Kuzeyşehir Projesi'nin En Özel Dairesi Satışta", // Linkten alınan başlık (kısaltılabilir)
+    "location": "Başakşehir, İstanbul", // Konum bilgisi (linkten veya manuel girilebilir)
+    "price": "8.250.000 TL", // Fiyat bilgisi (linkten veya manuel girilebilir)
+    "imageUrl": "https://placehold.co/400x220/0d6efd/ffffff?text=Kuzeyşehir+Daire", // Yer tutucu resim (gerçek resim linki veya dosya yolu ile değiştirin)
+    "details": { // Detaylar (linkten veya manuel girilebilir)
       "oda": "3+1",
       "banyo": 2,
       "m2": 160,
       "kat": "Bahçe Katı"
     },
-    "description": "Startkey Macro güvencesiyle, projenin en özel bahçe katı dairesi. Geniş kullanım alanı ve modern tasarım.",
-    "detailUrl": "#"
+    "description": "Startkey Macro güvencesiyle, projenin en özel bahçe katı dairesi. Geniş kullanım alanı ve modern tasarım.", // Açıklama (linkten veya manuel)
+    "detailUrl": "https://www.sahibinden.com/ilan/emlak-konut-satilik-kuzeysehir-projesi-nin-en-ozel-dairesi-satista-startkey-macro-1220006780/detay" // Verdiğiniz link
   },
   {
     "id": 2,
@@ -27,7 +27,7 @@
       "ozellik": "Özel Havuzlu"
     },
     "description": "Eşsiz deniz manzarası, özel havuzu ve geniş bahçesiyle unutulmaz bir tatil için ideal.",
-    "detailUrl": "#"
+    "detailUrl": "#" // Detay sayfası linki (varsa)
   },
   {
     "id": 3,
@@ -42,6 +42,6 @@
       "ozellik": "Yüksek Tabela Değeri"
     },
     "description": "İşlek cadde üzerinde, hazır kiracılı, yüksek kazanç potansiyeline sahip dükkan.",
-    "detailUrl": "#"
+    "detailUrl": "#" // Detay sayfası linki (varsa)
   }
-]
+  // --- YENİ İLANLARI BURAYA EKLEYİN 
